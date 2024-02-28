@@ -24,3 +24,7 @@ Route::get('login', function () {
 Route::get('gacor', function () {
     return view('gacor');
 });
+
+Route::get('button', function () {
+    return view('button');
+});
